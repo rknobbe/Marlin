@@ -25,6 +25,7 @@
 
 #define BOARD_INFO_NAME "BTT SKR Mini E3 V1.2"
 
+#define NEOPIXEL_PIN                       PC7    // LED driving pin
 #ifndef NEOPIXEL_PIN
   #define NEOPIXEL_PIN                      PC7   // LED driving pin
 #endif
@@ -47,6 +48,7 @@
 
   #define E0_SERIAL_TX_PIN                  PC11
   #define E0_SERIAL_RX_PIN                  PC11
+  #define FIL_RUNOUT_PIN                   PC12
 
   // Reduce baud rate to improve software serial reliability
   #define TMC_BAUD_RATE 19200
